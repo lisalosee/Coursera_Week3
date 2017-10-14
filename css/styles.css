@@ -1,0 +1,122 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #66ccff;
+  font-family: 'Delius', cursive;
+}
+
+/** fonts
+ font-family: 'Shadows Into Light Two', cursive;
+ font-family: 'Delius', cursive;
+ **/
+
+/** HEADER **/
+#header-nav {
+  background-color: #ff751a;
+  border-radius: 0;
+  border: 0;
+  min-height: 90px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #002db3;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: #002db3;
+  text-align: center;
+  font-size: 1.2em;
+}
+#nav-list a:hover {
+  background: #ff9966;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #002db3;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/* Home Page Content */
+#page-title h2 {
+  font-size: 2.5em;
+  color: #ff751a;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 20px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  min-height: 700px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+/*
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#chicken-tile {
+  background: url('../images/chicken.png') no-repeat;
+  background-position: center;
+}
+#beef-tile {
+  background: url('../images/beef.jpg') no-repeat;
+  background-position: center;
+}
+#sushi-tile {
+  background: url('../images/sushi.png') no-repeat;
+  background-position: center;
+}*/
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  background-color: #ff751a;
+  color: #000;
+  opacity: .8px;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8px;
+}
+.back p {
+  color: pink;
+}
